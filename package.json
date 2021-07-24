@@ -1,0 +1,13 @@
+{
+  "name": "hello-node",
+  "version": "0.0.1",
+  "description": "A simple Node app built on fastify, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "point-of-view": "^4.14.0",
+    "quick.db": "^7.1.3"
+  }
