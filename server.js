@@ -16,7 +16,7 @@ const {
   yaoi
 } = require("./config.json");
 
-Client.on("ready", () => {
+Client.once("ready", () => {
   console.log("I\'m ready!");
   Client.user.setPresence({
     activity: { name: `hula hoops`, type: "LISTENING" },
