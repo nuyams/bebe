@@ -17,6 +17,7 @@ const {
 } = require("./config.json");
 
 Client.on("ready", () => {
+  console.log("I\'m ready!");
   Client.user.setPresence({
     activity: { name: `hula hoops`, type: "LISTENING" },
     status: "idle"
